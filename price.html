@@ -1,0 +1,46 @@
+<!doctype html>
+<html lang="ru">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<link rel="canonical" href="https://grantotchet.veridok.ru/price.html">
+<title>Цена — учёт и отчёт по гранту для НКО</title>
+<meta name="description" content="Цена в месяц: раздельный учёт гранта по статьям бюджета, первичка и реестр для финансового отчёта.">
+<link rel="icon" href="favicon.svg">
+<link rel="stylesheet" href="style.css">
+<script src="smoke.js" defer></script>
+<script>
+  /* Открыт экран цен — price_view через smoke.js (window.smokeTrack). */
+  document.addEventListener("DOMContentLoaded", function () { if (window.smokeTrack) window.smokeTrack("price_view"); });
+</script>
+</head>
+<body data-page="price">
+
+<header><div class="wrap">
+  <div class="logo"><a href="index.html" data-ev="click_logo_home">Отчёт по гранту</a></div>
+  <nav class="top"><a href="index.html#chto" data-ev="click_nav_chto">Что вы получаете</a><a href="price.html" data-ev="click_nav_cena">Цена</a><a href="index.html#primer" data-ev="click_nav_primer">Пример</a></nav>
+</div></header>
+
+<div class="wrap">
+  <div class="hero">
+    <h1>Тариф и цена</h1>
+    <p class="sub">Учёт по статьям бюджета, первичка к расходам, реестр для отчёта и контроль нецелевых расходов.</p>
+  </div>
+
+  <section id="cena">
+    <div class="grid">
+      <div class="card"><b>Один грант</b><span>4 900 ₽ в месяц.</span><br><a class="btn" href="pay.html?plan=odin" data-ev="payment_click click_pay_odin">Оплатить — 4 900 ₽</a></div>
+      <div class="card"><b>До трёх грантов</b><span>9 900 ₽ в месяц.</span><br><a class="btn" href="pay.html?plan=tri" data-ev="payment_click click_pay_tri">Оплатить — 9 900 ₽</a></div>
+    </div>
+    <p class="cta-note">Сервис в подготовке · Оплата на этой странице не принимается</p>
+    <div class="actions"><a class="btn" href="index.html" data-ev="click_back">Вернуться к описанию</a></div>
+  </section>
+</div>
+
+<footer><div class="wrap">
+  <p>Оператор: ИП Гудев Роман, ИНН 615007167949 &middot; <a href="privacy.html" data-ev="click_legal_privacy">Политика обработки персональных данных</a></p>
+  <p class="muted">Учёт гранта и подготовка документов для вашей организации. Не связан с Фондом президентских грантов.</p>
+</div></footer>
+
+</body>
+</html>
