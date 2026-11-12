@@ -8,6 +8,10 @@
 <meta name="description" content="Для НКО — победителей ФПГ: раздельный учёт расходов гранта по статьям бюджета, реестр платёжных документов и данные для финансового отчёта.">
 <link rel="icon" href="favicon.svg">
 <link rel="stylesheet" href="style.css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;500;600&display=swap">
+<link rel="stylesheet" href="variant.css">
 <script src="smoke.js" defer></script>
 <!-- faq-jsonld:start -->
 <script type="application/ld+json">
@@ -62,38 +66,68 @@
 </head>
 <body>
 
-<header><div class="wrap">
-  <div class="logo"><a href="index.html" data-ev="click_logo_home">Отчёт по гранту</a></div>
-  <nav class="top"><a href="#chto" data-ev="click_nav_chto">Что вы получаете</a><a href="price.html" data-ev="click_nav_cena">Цена</a><a href="#primer" data-ev="click_nav_primer">Пример</a><a href="#start" data-ev="click_nav_start">Начать</a></nav>
+<header><div class="shell">
+  <a class="home" href="index.html" data-ev="click_logo_home">Отчёт по гранту</a>
+  <nav><a href="#chto" data-ev="click_nav_chto">Что вы получаете</a><a href="price.html" data-ev="click_nav_cena">Цена</a><a href="#primer" data-ev="click_nav_primer">Пример</a><a href="#start" data-ev="click_nav_start">Начать</a></nav>
 </div></header>
 
-<div class="wrap">
-  <div class="hero">
-    <h1>Финансовый отчёт по гранту — без ночи перед сроком и без возврата нецелевых расходов</h1>
-    <p class="sub">Для некоммерческих организаций, выигравших грант Фонда президентских грантов: каждый расход сразу ложится на свою статью бюджета проекта, к нему прикладывается первичка, а к сроку отчёта у вас готов реестр платёжных документов для личного кабинета фонда.</p>
-    <a class="cta" href="price.html" data-ev="cta_click">Мне это нужно</a> <a class="cta" href="price.html" data-ev="click_cena_hero" style="margin-left:8px">Цена</a>
-    <p class="cta-note">Сервис в подготовке · Оплата на этой странице не принимается</p>
-  </div>
+<main class="shell">
+  <section class="split">
+    <div class="stack">
+      <p class="meta rise"><span class="dot"></span> Для некоммерческих организаций, выигравших грант</p>
+      <h1 class="rise" style="--i:1" data-len="long">Финансовый отчёт по гранту&nbsp;<span class="soft">— без ночи перед сроком и без возврата нецелевых расходов</span></h1>
+      <p class="rise" style="--i:2">Для некоммерческих организаций, выигравших грант Фонда президентских грантов: каждый расход сразу ложится на свою статью бюджета проекта, к нему прикладывается первичка, а к сроку отчёта у вас готов реестр платёжных документов для личного кабинета фонда.</p>
+      <div class="actions rise" style="--i:3"><a class="button" href="price.html" data-ev="cta_click">Мне это нужно</a><a class="button quiet" href="price.html" data-ev="click_cena_hero">Цена</a></div>
+      <p class="meta rise" style="--i:4">Сервис в подготовке · Оплата на этой странице не принимается</p>
+    </div>
+    <figure class="window rise" style="--i:2"><svg aria-hidden="true" focusable="false" class="shot" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 800"><rect width="1200" height="800" fill="#eef2f7" /><rect x="80" y="80" width="1040" height="640" rx="24" fill="#ffffff" stroke="#dde2ea" stroke-width="3" /><text x="120" y="160" font-size="36" font-weight="600" fill="#0a1524">Отчёт по гранту</text><line x1="120" y1="200" x2="1080" y2="200" stroke="#dde2ea" stroke-width="3" fill="none" /><rect x="130" y="250" width="48" height="48" rx="10" fill="#12397a" /><text x="200" y="284" font-size="30" fill="#0a1524">Учёт по статьям бюджета</text><rect x="130" y="350" width="48" height="48" rx="10" fill="#ffffff" stroke="#dde2ea" stroke-width="2" /><rect x="200" y="364" width="276" height="20" rx="10" fill="#dde2ea" /><rect x="130" y="450" width="48" height="48" rx="10" fill="#ffffff" stroke="#dde2ea" stroke-width="2" /><rect x="200" y="464" width="312" height="20" rx="10" fill="#dde2ea" /><rect x="130" y="550" width="48" height="48" rx="10" fill="#ffffff" stroke="#dde2ea" stroke-width="2" /><rect x="200" y="564" width="348" height="20" rx="10" fill="#dde2ea" /><rect x="700" y="250" width="380" height="400" rx="20" fill="#dfe8f7" /><text x="730" y="310" font-size="30" font-weight="600" fill="#0a1524">в браузере</text><rect x="740" y="440" width="48" height="160" rx="8" fill="#ffffff" stroke="#dde2ea" stroke-width="2" /><rect x="820" y="500" width="48" height="100" rx="8" fill="#ffffff" stroke="#dde2ea" stroke-width="2" /><rect x="900" y="380" width="48" height="220" rx="8" fill="#12397a" /><rect x="980" y="520" width="48" height="80" rx="8" fill="#ffffff" stroke="#dde2ea" stroke-width="2" /></svg></figure>
+    <dl class="facts">
+      <div><dt>Организаций</dt><dd>Для некоммерческих организаций</dd></div>
+      <div><dt>Отчёт</dt><dd>Финансовый отчёт по гранту</dd></div>
+      <div><dt>Расход</dt><dd>Каждый расход сразу ложится</dd></div>
+      <div><dt>Сервис</dt><dd>Сервис в подготовке</dd></div>
+    </dl>
+  </section>
 
   <section id="chto" data-view="features_view">
-    <h2>Что вы получаете</h2>
-    <div class="grid">
-      <div class="card"><b>Учёт по статьям бюджета</b><span>Каждый платёж — на свою статью бюджета проекта, с остатком по статье.</span><br><a class="btn" href="price.html" data-ev="feature_statyi">Мне это нужно</a></div>
-      <div class="card"><b>Первичка к расходу</b><span>Договоры, акты, накладные, чеки и авансовые отчёты прикреплены к каждому платежу.</span><br><a class="btn" href="price.html" data-ev="feature_pervichka">Мне это нужно</a></div>
-      <div class="card"><b>Реестр для отчёта</b><span>Реестр платёжных документов и сканы в виде, удобном для личного кабинета фонда.</span><br><a class="btn" href="price.html" data-ev="feature_reestr">Мне это нужно</a></div>
-      <div class="card"><b>Контроль нецелевых расходов</b><span>Предупреждение, если расход не подходит к статье или превышает её остаток.</span><br><a class="btn" href="price.html" data-ev="feature_kontrol">Мне это нужно</a></div>
+    <div class="stack"><h2>Что вы получаете</h2></div>
+    <div class="bento">
+      <article class="tile stack reveal">
+        <div class="art"><svg aria-hidden="true" focusable="false" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600"><rect width="800" height="600" fill="#eef2f7" /><rect x="60" y="50" width="680" height="500" rx="22" fill="#ffffff" stroke="#dde2ea" stroke-width="3" /><text x="100" y="120" font-size="32" font-weight="600" fill="#0a1524">Учёт по статьям бюджета</text><line x1="140" y1="470" x2="660" y2="470" stroke="#dde2ea" stroke-width="4" fill="none" /><rect x="160" y="350" width="56" height="120" rx="8" fill="#dfe8f7" stroke="#dde2ea" stroke-width="2" /><rect x="280" y="260" width="56" height="210" rx="8" fill="#12397a" /><rect x="400" y="380" width="56" height="90" rx="8" fill="#dfe8f7" stroke="#dde2ea" stroke-width="2" /><rect x="520" y="310" width="56" height="160" rx="8" fill="#dfe8f7" stroke="#dde2ea" stroke-width="2" /></svg></div>
+        <h3>Учёт по статьям бюджета</h3><p>Каждый платёж — на свою статью бюджета проекта, с остатком по статье.</p>
+        <a class="button quiet" href="price.html" data-ev="feature_statyi">Мне это нужно</a>
+      </article>
+      <article class="tile stack reveal">
+        <div class="art"><svg aria-hidden="true" focusable="false" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600"><rect width="800" height="600" fill="#eef2f7" /><rect x="60" y="50" width="680" height="500" rx="22" fill="#ffffff" stroke="#dde2ea" stroke-width="3" /><text x="100" y="120" font-size="32" font-weight="600" fill="#0a1524">Первичка к расходу</text><rect x="120" y="190" width="48" height="48" rx="8" fill="#ffffff" stroke="#dde2ea" stroke-width="2" /><polyline points="132,216 142,226 158,204" fill="none" stroke="#12397a" stroke-width="4" /><rect x="190" y="204" width="220" height="18" rx="9" fill="#dde2ea" /><rect x="120" y="262" width="48" height="48" rx="8" fill="#ffffff" stroke="#dde2ea" stroke-width="2" /><rect x="190" y="276" width="270" height="18" rx="9" fill="#dde2ea" /><rect x="120" y="334" width="48" height="48" rx="8" fill="#ffffff" stroke="#dde2ea" stroke-width="2" /><polyline points="132,360 142,370 158,348" fill="none" stroke="#12397a" stroke-width="4" /><rect x="190" y="348" width="320" height="18" rx="9" fill="#dde2ea" /><rect x="120" y="406" width="48" height="48" rx="8" fill="#ffffff" stroke="#dde2ea" stroke-width="2" /><rect x="190" y="420" width="370" height="18" rx="9" fill="#dde2ea" /></svg></div>
+        <h3>Первичка к расходу</h3><p>Договоры, акты, накладные, чеки и авансовые отчёты прикреплены к каждому платежу.</p>
+        <a class="button quiet" href="price.html" data-ev="feature_pervichka">Мне это нужно</a>
+      </article>
+      <article class="tile stack reveal">
+        <div class="art"><svg aria-hidden="true" focusable="false" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600"><rect width="800" height="600" fill="#eef2f7" /><rect x="60" y="50" width="680" height="500" rx="22" fill="#ffffff" stroke="#dde2ea" stroke-width="3" /><text x="100" y="120" font-size="32" font-weight="600" fill="#0a1524">Реестр для отчёта</text><rect x="120" y="190" width="320" height="300" rx="16" fill="#ffffff" stroke="#dde2ea" stroke-width="3" /><circle cx="560" cy="300" r="70" fill="#dfe8f7" stroke="#12397a" stroke-width="6" /><polyline points="528,304 552,330 598,270" fill="none" stroke="#12397a" stroke-width="8" /><rect x="150" y="230" width="220" height="16" rx="8" fill="#dde2ea" /><rect x="150" y="280" width="180" height="16" rx="8" fill="#dde2ea" /><rect x="150" y="330" width="240" height="16" rx="8" fill="#dde2ea" /><rect x="150" y="380" width="140" height="16" rx="8" fill="#dde2ea" /></svg></div>
+        <h3>Реестр для отчёта</h3><p>Реестр платёжных документов и сканы в виде, удобном для личного кабинета фонда.</p>
+        <a class="button quiet" href="price.html" data-ev="feature_reestr">Мне это нужно</a>
+      </article>
+      <article class="tile stack reveal">
+        <div class="art"><svg aria-hidden="true" focusable="false" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600"><rect width="800" height="600" fill="#eef2f7" /><rect x="60" y="50" width="680" height="500" rx="22" fill="#ffffff" stroke="#dde2ea" stroke-width="3" /><text x="100" y="120" font-size="32" font-weight="600" fill="#0a1524">Контроль нецелевых расходов</text><line x1="150" y1="190" x2="150" y2="480" stroke="#12397a" stroke-width="6" fill="none" /><polygon points="150,200 300,236 150,272" fill="#12397a" /><rect x="180" y="310" width="260" height="20" rx="10" fill="#dde2ea" /><rect x="180" y="354" width="200" height="20" rx="10" fill="#dde2ea" /><rect x="180" y="398" width="300" height="20" rx="10" fill="#dde2ea" /><rect x="180" y="442" width="170" height="20" rx="10" fill="#dde2ea" /></svg></div>
+        <h3>Контроль нецелевых расходов</h3><p>Предупреждение, если расход не подходит к статье или превышает её остаток.</p>
+        <a class="button quiet" href="price.html" data-ev="feature_kontrol">Мне это нужно</a>
+      </article>
     </div>
   </section>
 
-  <section id="primer" data-view="example_view">
-    <h2>Пример (вымышленные данные)</h2>
-    <p class="fine">НКО с проектом на 1,8 млн рублей и четырьмя статьями бюджета. За месяц прошло 23 платежа; два из них помечены: у одного нет акта, другой превышает остаток статьи «Командировки». К отчёту за этап реестр и сканы собраны за вечер.</p>
-    <a class="cta" href="price.html" data-ev="click_cta_after_example">Выбрать тариф</a>
+  <section id="primer" data-view="example_view" class="split flip">
+    <div class="stack">
+      <h2>Пример</h2>
+      <p>НКО с проектом на 1,8 млн рублей и четырьмя статьями бюджета. За месяц прошло 23 платежа; два из них помечены: у одного нет акта, другой превышает остаток статьи «Командировки». К отчёту за этап реестр и сканы собраны за вечер.</p>
+    <a class="button" href="price.html" data-ev="click_cta_after_example">Выбрать тариф</a>
+    </div>
+<svg aria-hidden="true" focusable="false" class="shot reveal" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 800"><rect width="1200" height="800" fill="#eef2f7" /><line x1="240" y1="160" x2="960" y2="160" stroke="#dde2ea" stroke-width="6" fill="none" /><circle cx="240" cy="160" r="22" fill="#ffffff" stroke="#12397a" stroke-width="6" /><circle cx="600" cy="160" r="22" fill="#ffffff" stroke="#12397a" stroke-width="6" /><circle cx="960" cy="160" r="22" fill="#12397a" /><text x="240" y="240" font-size="30" font-weight="600" fill="#0a1524" text-anchor="middle">платежа</text><text x="600" y="240" font-size="30" font-weight="600" fill="#0a1524" text-anchor="middle">Командировки</text><text x="960" y="240" font-size="30" font-weight="600" fill="#0a1524" text-anchor="middle">реестр</text><rect x="140" y="300" width="920" height="420" rx="24" fill="#ffffff" stroke="#dde2ea" stroke-width="3" /><text x="180" y="370" font-size="34" font-weight="600" fill="#0a1524">за вечер</text><rect x="180" y="430" width="70" height="70" rx="12" fill="#12397a" /><rect x="290" y="430" width="70" height="70" rx="12" fill="#dfe8f7" stroke="#dde2ea" stroke-width="2" /><rect x="400" y="430" width="70" height="70" rx="12" fill="#dfe8f7" stroke="#dde2ea" stroke-width="2" /><rect x="510" y="430" width="70" height="70" rx="12" fill="#dfe8f7" stroke="#dde2ea" stroke-width="2" /><rect x="620" y="430" width="70" height="70" rx="12" fill="#dfe8f7" stroke="#dde2ea" stroke-width="2" /><rect x="730" y="430" width="70" height="70" rx="12" fill="#12397a" /><rect x="180" y="540" width="500" height="20" rx="10" fill="#dde2ea" /><rect x="180" y="590" width="320" height="20" rx="10" fill="#b9c3d2" /></svg>
   </section>
 <!-- seo-tekst:start -->
-  <section id="opis">
-    <h2>Как это работает</h2>
-    <p>Каждый год победителями конкурсов Фонда президентских грантов становятся тысячи некоммерческих организаций — в конкурсах 2026 года их почти три тысячи. Вместе с деньгами НКО получает обязательство: тратить грант строго по статьям утверждённого бюджета проекта и по каждому этапу сдавать финансовый отчёт в личном кабинете фонда с копиями платёжных и первичных документов.</p>
+  <section id="opis" class="split flip">
+    <div class="stack"><h2>Как это работает</h2></div>
+    <div class="stack">
+      <p>Каждый год победителями конкурсов Фонда президентских грантов становятся тысячи некоммерческих организаций — в конкурсах 2026 года их почти три тысячи. Вместе с деньгами НКО получает обязательство: тратить грант строго по статьям утверждённого бюджета проекта и по каждому этапу сдавать финансовый отчёт в личном кабинете фонда с копиями платёжных и первичных документов.</p>
     <p>В небольшой организации отчётом обычно занимается руководитель проекта или бухгалтер, который ведёт ещё несколько организаций. Расходы копятся в выписке банка, акты и накладные лежат в почте и папках, а за несколько дней до срока всё это приходится сводить вручную. Если расход не подтверждён документом или ушёл не на ту статью, фонд может признать его нецелевым и потребовать вернуть деньги.</p>
     <p>Сервис ведёт раздельный учёт гранта с первого платежа. Вы загружаете бюджет проекта со статьями и суммами, а каждый расход по выписке относите к своей статье. Сервис показывает, сколько потрачено и сколько осталось по каждой статье, и предупреждает, если платёж превышает остаток или по смыслу не подходит к статье.</p>
     <p>К каждому платежу прикрепляется первичка: договор, акт, накладная, счёт, кассовый чек, билет или авансовый отчёт. Сервис отмечает платежи, к которым документов ещё нет, и напоминает о них заранее, пока контрагента ещё можно попросить прислать акт. Так недостающие бумаги находятся в течение месяца, а не в последний день перед отчётом.</p>
@@ -102,31 +136,34 @@
     <p>Сервис не заменяет бухгалтерию организации и не сдаёт отчёт за вас: он держит в порядке учёт гранта и документы, а решение о каждом расходе и подача отчёта остаются за руководителем проекта. Работает в браузере, ничего устанавливать не нужно, а доступ можно дать бухгалтеру и руководителю одновременно.</p>
     <p>Начать можно в день получения гранта: загрузить бюджет проекта, выписку по счёту и первые документы. Если проект уже идёт, сервис принимает и прошлые платежи — достаточно загрузить выписку с начала проекта и прикрепить документы, которые уже есть.</p>
     <p>Сервис рассчитан на НКО, которые получили один или несколько грантов Фонда президентских грантов, а также другие гранты со сходными правилами отчётности. Сейчас он в подготовке: сначала мы проверяем, нужен ли он организациям, и только потом его создаём.</p>
+    </div>
   </section>
   <section id="faq">
-    <h2>Вопросы и ответы</h2>
-    <h3>Сервис сдаёт отчёт в личный кабинет фонда за нас?</h3>
-    <p>Нет. Он готовит реестр и документы, а отчёт подаёт ваша организация.</p>
-    <h3>Можно ли начать, если проект уже идёт?</h3>
-    <p>Да, по выписке с начала проекта и документам, которые уже есть.</p>
-    <h3>Подходит ли для других грантов?</h3>
-    <p>Да, если отчётность строится по статьям бюджета и первичке, как у Фонда президентских грантов.</p>
-    <h3>Это замена бухгалтерии НКО?</h3>
-    <p>Нет. Сервис ведёт учёт гранта и документы, общая бухгалтерия остаётся у вас.</p>
-    <h3>Можно уже пользоваться?</h3>
-    <p>Пока нет. Сервис в подготовке, и мы проверяем, нужен ли он организациям.</p>
+    <div class="stack"><h2>Вопросы и ответы</h2></div>
+    <div class="rows">
+      <div class="split flip"><h3>Сервис сдаёт отчёт в личный кабинет фонда за нас?</h3><p>Нет. Он готовит реестр и документы, а отчёт подаёт ваша организация.</p></div>
+      <div class="split flip"><h3>Можно ли начать, если проект уже идёт?</h3><p>Да, по выписке с начала проекта и документам, которые уже есть.</p></div>
+      <div class="split flip"><h3>Подходит ли для других грантов?</h3><p>Да, если отчётность строится по статьям бюджета и первичке, как у Фонда президентских грантов.</p></div>
+      <div class="split flip"><h3>Это замена бухгалтерии НКО?</h3><p>Нет. Сервис ведёт учёт гранта и документы, общая бухгалтерия остаётся у вас.</p></div>
+      <div class="split flip"><h3>Можно уже пользоваться?</h3><p>Пока нет. Сервис в подготовке, и мы проверяем, нужен ли он организациям.</p></div>
+    </div>
   </section>
 <!-- seo-tekst:end -->
-  <section id="start" data-view="start_view">
-    <h2>Добавьте свой грант</h2>
-    <p><label>Сколько грантов сейчас ведёт организация<br><select data-ev-focus="form_start" style="margin-top:6px;padding:8px;font-size:16px"><option value="">— выберите —</option><option>1</option><option>2–3</option><option>4–10</option><option>Больше 10</option></select></label></p>
-    <a class="cta" href="price.html" data-ev="form_submit_click">Добавить грант</a>
+  <section id="start" data-view="start_view" class="split">
+    <div class="stack">
+      <h2>Добавьте свой грант</h2>
+    </div>
+    <div class="tile stack">
+      <label>Сколько грантов сейчас ведёт организация<select data-ev-focus="form_start"><option value="">— выберите —</option><option>1</option><option>2–3</option><option>4–10</option><option>Больше 10</option></select></label>
+      <a class="button" href="price.html" data-ev="form_submit_click">Добавить грант</a>
+    </div>
   </section>
-</div>
+</main>
 
-<footer><div class="wrap">
+<footer><div class="shell">
+  <p><b>Отчёт по гранту</b></p>
   <p>Оператор: ИП Гудев Роман, ИНН 615007167949 &middot; <a href="privacy.html" data-ev="click_legal_privacy">Политика обработки персональных данных</a></p>
-  <p class="muted">Учёт гранта и подготовка документов для вашей организации. Не связан с Фондом президентских грантов.</p>
+  <p>Учёт гранта и подготовка документов для вашей организации. Не связан с Фондом президентских грантов.</p>
 </div></footer>
 
 </body>
